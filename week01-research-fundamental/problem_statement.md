@@ -1,0 +1,2 @@
+## Problem Statement
+Emergency department clinicians at Mercer General Hospital face variability in triage decision-making, which can lead to inconsistent patient prioritisation. In a resource-constrained Caribbean emergency department setting, existing AI-assisted triage models demonstrate strong performance but are often trained on limited datasets and lack validation across diverse populations. This project proposes a 12-week pilot to evaluate whether a machine learning model trained
