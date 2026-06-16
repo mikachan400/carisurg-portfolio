@@ -16,7 +16,3 @@ This folder contains my Week 1 work for the CariSurg MedTech programme.
 - Machine learning for clinical decision support  
 - Identification of research gaps  
 - Application of AI in resource-constrained healthcare environments  
-
-## ✅ Outcome
-
-Achieved 100% for Week 1 submission.
