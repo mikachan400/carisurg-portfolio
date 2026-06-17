@@ -6,6 +6,8 @@ It includes weekly research tasks, proposals, analyses, and project deliverables
 ---
 
 ## 📁 Repository Structure
+
+```
 carisurg-portfolio/
 ├── notebooks/          # Jupyter notebooks and weekly analyses
 ├── docs/               # Proposals, reports, and written deliverables
@@ -13,22 +15,27 @@ carisurg-portfolio/
 ├── README.md           # Project overview
 ├── requirements.txt    # Dependencies
 └── .gitignore          # Git ignore file
-  Completed project report and presentation.
+```
 
 ---
+
 ## ⚙️ How to Use
 
 Clone the repository:
 
-Shellgit clone https://github.com/your-username/carisurg-portfolio.gitShow more lines
+```bash
+git clone https://github.com/YOUR-USERNAME/carisurg-portfolio.git
+```
 
 Navigate into the project folder:
 
-Shellcd carisurg-portfolioShow more lines
+```bash
+cd carisurg-portfolio
+```
 
 ### Open notebooks using:
-Jupyter Notebook
-OR Google Colab
+- Jupyter Notebook  
+- OR Google Colab
 
 ---
 ## 🧠 Focus Areas
@@ -54,3 +61,10 @@ OR Google Colab
 
 ✅ Week 1 and 2 completed 
 ⏳ Weeks 3–12 in progress
+
+---
+
+## 👤 Author
+Shamika Glasgow  
+CariSurg MedTech Pathways Programme
+
