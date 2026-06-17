@@ -60,7 +60,13 @@ cd carisurg-portfolio
 ## ✅ Status
 
 ✅ Week 1 and 2 completed 
+
 ⏳ Weeks 3–12 in progress
+
+---
+
+## 🔐 Data Notice
+No real patient data is stored in this repository. The dataset used is anonymised and provided for educational purposes, with simulated inconsistencies to reflect real-world clinical data challenges.
 
 ---
 
