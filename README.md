@@ -7,17 +7,37 @@ It includes weekly research tasks, proposals, analyses, and project deliverables
 
 ## 📁 Repository Structure
 
-- **Week 01 – Research Fundamentals:**  
-  Literature review, gap analysis, and preliminary proposal on AI-assisted emergency department triage.
-
-- **Weeks 02–11:**  
-  Weekly technical, analytical, and project-based tasks building toward a final clinical AI solution.
-
-- **Week 12 – Final Project:**  
-  Completed project report and presentation.
+```
+carisurg-portfolio/
+├── notebooks/          # Jupyter notebooks and weekly analyses
+├── docs/               # Proposals, reports, and written deliverables
+├── data/               # Dataset placeholders (no real patient data)
+├── README.md           # Project overview
+├── requirements.txt    # Dependencies
+└── .gitignore          # Git ignore file
+```
 
 ---
 
+## ⚙️ How to Use
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/carisurg-portfolio.git
+```
+
+Navigate into the project folder:
+
+```bash
+cd carisurg-portfolio
+```
+
+### Open notebooks using:
+- Jupyter Notebook  
+- OR Google Colab
+
+---
 ## 🧠 Focus Areas
 
 - AI-assisted emergency department triage  
@@ -39,5 +59,18 @@ It includes weekly research tasks, proposals, analyses, and project deliverables
 
 ## ✅ Status
 
-✅ Week 1 completed 
-⏳ Weeks 2–12 in progress
+✅ Week 1 and 2 completed 
+
+⏳ Weeks 3–12 in progress
+
+---
+
+## 🔐 Data Notice
+No real patient data is stored in this repository. The dataset used is anonymised and provided for educational purposes, with simulated inconsistencies to reflect real-world clinical data challenges.
+
+---
+
+## 👤 Author
+Shamika Glasgow  
+CariSurg MedTech Pathways Programme
+
