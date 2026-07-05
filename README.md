@@ -59,9 +59,9 @@ cd carisurg-portfolio
 
 ## ✅ Status
 
-✅ Week 1 and 2 completed 
+✅ Week 1,2,3 and 4 completed 
 
-⏳ Weeks 3–12 in progress
+⏳ Weeks 5–12 in progress
 
 ---
 
