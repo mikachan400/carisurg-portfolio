@@ -10,7 +10,7 @@ The dataset contains more than 55,000 adult emergency department encounters and 
 
 The dataset provides information typically available during triage and therefore represents an appropriate foundation for artificial intelligence-assisted decision support. Data quality assessment revealed relatively low missingness among structured variables, reducing the need for extensive imputation and supporting model feasibility.
 
-![Figure 1 – Missingness Heatmap](figs/missingness_heatmap.png)
+![Figure 1 – Missingness Heatmap](figs/missingness.png)
 
 ---
 
@@ -21,7 +21,7 @@ The most significant challenge identified is the imbalance across ESI categories
 
 > **Mitigation:** Potential approaches include class weighting, stratified sampling, targeted oversampling techniques, and separate evaluation of ESI 1 performance. Model performance should be monitored specifically for high-acuity patients because errors in these cases carry the greatest clinical risk.
 
-![Figure 2 – ESI Distribution](figs/esi_distribution.png)
+![Figure 2 – ESI Distribution](figs/esi_age.png)
 
 ### 2. Outcome Leakage
 Variables such as `disposition` and `previousdispo` become known only after triage and therefore should not be used as model inputs. Using such variables would introduce information that would not be available at the time of prediction and could falsely inflate model performance.
