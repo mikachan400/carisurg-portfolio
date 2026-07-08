@@ -59,10 +59,32 @@ cd carisurg-portfolio
 
 ## ✅ Status
 
-✅ Week 1,2,3 and 4 completed 
+✅ Week 1-5 completed 
 
-⏳ Weeks 5–12 in progress
+⏳ Weeks 6–12 in progress
+---
 
+## 📊 Week 5 Deliverables
+
+Week 5 focused on assessing the feasibility of developing an AI-assisted emergency department triage model using a real clinical dataset.
+
+Deliverables include:
+
+- Clinical Data Literacy Notebook
+- Data Profiling Notebook
+- Exploratory Visualisation Notebook
+- Data Quality Dashboard
+- Feasibility Memo
+- Top 10 Feature Shortlist
+- Missingness Analysis
+- Race and Ethnicity Analysis
+- Chief Complaint Analysis
+
+Key findings:
+- Dataset contains over 55,000 encounters and approximately 225 features.
+- Data completeness is generally high.
+- The ESI target variable is suitable for modelling.
+- Major concerns include class imbalance, outcome leakage, and external validity.
 ---
 
 ## 🔐 Data Notice
