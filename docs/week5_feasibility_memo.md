@@ -10,8 +10,6 @@ The dataset contains more than 55,000 adult emergency department encounters and 
 
 The dataset provides information typically available during triage and therefore represents an appropriate foundation for artificial intelligence-assisted decision support. Data quality assessment revealed relatively low missingness among structured variables, reducing the need for extensive imputation and supporting model feasibility.
 
-../figs/01_missingness.png
-
 ---
 
 ## Top 3 Quality Concerns
@@ -20,8 +18,6 @@ The dataset provides information typically available during triage and therefore
 The most significant challenge identified is the imbalance across ESI categories. ESI 1 encounters represent only a very small proportion of all patient presentations. This imbalance may reduce the model's ability to recognise critically ill patients because relatively few examples are available during training.
 
 > **Mitigation:** Potential approaches include class weighting, stratified sampling, targeted oversampling techniques, and separate evaluation of ESI 1 performance. Model performance should be monitored specifically for high-acuity patients because errors in these cases carry the greatest clinical risk.
-
-../figs/02_esi_age.png
 
 ### 2. Outcome Leakage
 Variables such as `disposition` and `previousdispo` become known only after triage and therefore should not be used as model inputs. Using such variables would introduce information that would not be available at the time of prediction and could falsely inflate model performance.
@@ -50,7 +46,6 @@ Analysis of ESI 1 encounters suggests that high-risk complaints such as respirat
 
 The rarity of ESI 1 encounters highlights the need for careful model evaluation to ensure critically ill patients are not overlooked.
 
-../figs/03_demographics.png
 ---
 
 ## Top 10 Feature Shortlist
@@ -84,19 +79,26 @@ At this stage, safer approaches include class weighting, careful evaluation of m
 Several visualisations were generated to assess data quality and modelling feasibility.
 
 * **Figure 1 – Missingness Heatmap:** Demonstrated high completeness across structured variables.
+!./figs/01_missingness.png
+  
 * **Figure 2 – ESI Distribution:** Highlighted substantial class imbalance and the scarcity of ESI 1 patients.
+!./figs/02_esi_age.png
+  
 * **Figure 3 – Race and Ethnicity Distribution:** Provided demographic context and informed fairness considerations.
+
+!./figs/03_demographics.png
+  
 * **Figure 4 – Top Chief Complaints:** Identified the most common presenting complaints.
   
-../figs/04_chief_complaints.png
+!./figs/04_chief_complaints.png
 
 * **Figure 5 – Vitals by ESI Level:** Demonstrated separation between acuity categories based on physiological measurements.
 
-../figs/05_vitals_by_esi.png
+!./figs/05_vitals_by_esi.png
   
 * **Figure 6 – Correlation Analysis:** Identified relationships between clinical features and triage severity.
 
-../figs/06_correlation.png
+!./figs/06_correlation.png
 
 ---
 
