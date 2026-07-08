@@ -82,26 +82,27 @@ Several visualisations were generated to assess data quality and modelling feasi
 
 * **Figure 1 – Missingness Heatmap:** Demonstrated high completeness across structured variables.
 
-[figs/01_missingness.png](https://github.com/mikachan400/carisurg-portfolio/blob/f05fbc5d98863a8f52c08455aad7101e87700796/figs/01_missingness.png)
+https://github.com/mikachan400/carisurg-portfolio/blob/f05fbc5d98863a8f52c08455aad7101e87700796/figs/01_missingness.png
   
 * **Figure 2 – ESI Distribution:** Highlighted substantial class imbalance and the scarcity of ESI 1 patients.
-!./figs/02_esi_age.png
+
+https://github.com/mikachan400/carisurg-portfolio/blob/f05fbc5d98863a8f52c08455aad7101e87700796/figs/02_esi_age.png
   
 * **Figure 3 – Race and Ethnicity Distribution:** Provided demographic context and informed fairness considerations.
 
-!./figs/03_demographics.png
-  
+https://github.com/mikachan400/carisurg-portfolio/blob/f05fbc5d98863a8f52c08455aad7101e87700796/figs/03_demographics.png
+
 * **Figure 4 – Top Chief Complaints:** Identified the most common presenting complaints.
   
-!./figs/04_chief_complaints.png
+https://github.com/mikachan400/carisurg-portfolio/blob/f05fbc5d98863a8f52c08455aad7101e87700796/figs/04_chief_complaints.png
 
 * **Figure 5 – Vitals by ESI Level:** Demonstrated separation between acuity categories based on physiological measurements.
 
-!./figs/05_vitals_by_esi.png
+https://github.com/mikachan400/carisurg-portfolio/blob/f05fbc5d98863a8f52c08455aad7101e87700796/figs/05_vitals_by_esi.png
   
 * **Figure 6 – Correlation Analysis:** Identified relationships between clinical features and triage severity.
 
-!./figs/06_correlation.png
+https://github.com/mikachan400/carisurg-portfolio/blob/f05fbc5d98863a8f52c08455aad7101e87700796/figs/06_correlation.png
 
 ---
 
