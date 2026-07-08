@@ -49,7 +49,9 @@ The rarity of ESI 1 encounters highlights the need for careful model evaluation 
 ---
 
 ## Top 10 Feature Shortlist
-This shortlist combines exploratory correlation analysis with clinical reasoning and should be treated as a hypothesis for testing during baseline model development in Week 6 rather than definitive evidence of feature importance.The following variables were selected using clinical reasoning and exploratory correlations with ESI level. 
+This shortlist combines exploratory correlation analysis with clinical reasoning and should be treated as a hypothesis for testing during baseline model development in Week 6 rather than definitive evidence of feature importance.
+
+The following variables were selected using clinical reasoning and exploratory correlations with ESI level. 
 
 | Rank | Feature | Clinical Justification |
 | :---: | :--- | :--- |
@@ -79,7 +81,8 @@ At this stage, safer approaches include class weighting, careful evaluation of m
 Several visualisations were generated to assess data quality and modelling feasibility.
 
 * **Figure 1 – Missingness Heatmap:** Demonstrated high completeness across structured variables.
-!./figs/01_missingness.png
+
+![Figure 1 – Missingness Heatmap](./figs/01_missingness.png)
   
 * **Figure 2 – ESI Distribution:** Highlighted substantial class imbalance and the scarcity of ESI 1 patients.
 !./figs/02_esi_age.png
