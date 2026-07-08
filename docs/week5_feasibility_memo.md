@@ -86,23 +86,23 @@ Several visualisations were generated to assess data quality and modelling feasi
   
 * **Figure 2 – ESI Distribution:** Highlighted substantial class imbalance and the scarcity of ESI 1 patients.
 
-https://github.com/mikachan400/carisurg-portfolio/blob/f05fbc5d98863a8f52c08455aad7101e87700796/figs/02_esi_age.png
-  
+![Figure 2 – ESI Distribution](https://raw.githubusercontent.com/mikachan400/carisurg-portfolio/f05fbc5d98863a8f52c08455aad7101e87700796/figs/02_esi_age.png)
+
 * **Figure 3 – Race and Ethnicity Distribution:** Provided demographic context and informed fairness considerations.
 
-https://github.com/mikachan400/carisurg-portfolio/blob/f05fbc5d98863a8f52c08455aad7101e87700796/figs/03_demographics.png
+![Figure 3 – Race and Ethnicity Distribution](https://raw.githubusercontent.com/mikachan400/carisurg-portfolio/f05fbc5d98863a8f52c08455aad7101e87700796/figs/03_demographics.png)
 
 * **Figure 4 – Top Chief Complaints:** Identified the most common presenting complaints.
   
-https://github.com/mikachan400/carisurg-portfolio/blob/f05fbc5d98863a8f52c08455aad7101e87700796/figs/04_chief_complaints.png
+![Figure 4 – Top Chief Complaints](https://raw.githubusercontent.com/mikachan400/carisurg-portfolio/f05fbc5d98863a8f52c08455aad7101e87700796/figs/04_chief_complaints.png)
 
 * **Figure 5 – Vitals by ESI Level:** Demonstrated separation between acuity categories based on physiological measurements.
 
-https://github.com/mikachan400/carisurg-portfolio/blob/f05fbc5d98863a8f52c08455aad7101e87700796/figs/05_vitals_by_esi.png
-  
+![Figure 5 – Vitals by ESI Level](https://raw.githubusercontent.com/mikachan400/carisurg-portfolio/f05fbc5d98863a8f52c08455aad7101e87700796/figs/05_vitals_by_esi.png)
+
 * **Figure 6 – Correlation Analysis:** Identified relationships between clinical features and triage severity.
 
-https://github.com/mikachan400/carisurg-portfolio/blob/f05fbc5d98863a8f52c08455aad7101e87700796/figs/06_correlation.png
+![Figure 6 – Correlation Analysis](https://raw.githubusercontent.com/mikachan400/carisurg-portfolio/f05fbc5d98863a8f52c08455aad7101e87700796/figs/06_correlation.png)
 
 ---
 
