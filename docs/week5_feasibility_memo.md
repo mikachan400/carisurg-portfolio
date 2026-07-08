@@ -82,7 +82,7 @@ Several visualisations were generated to assess data quality and modelling feasi
 
 * **Figure 1 – Missingness Heatmap:** Demonstrated high completeness across structured variables.
 
-![Figure 1 – Missingness Heatmap](./figs/01_missingness.png)
+![Figure 1 – Missingness Heatmap](../figs/01_missingness.png)
   
 * **Figure 2 – ESI Distribution:** Highlighted substantial class imbalance and the scarcity of ESI 1 patients.
 !./figs/02_esi_age.png
