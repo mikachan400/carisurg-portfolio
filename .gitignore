@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# CariSurg Week 5 dataset
+yaleemmlc_admissionprediction_triage.csv
