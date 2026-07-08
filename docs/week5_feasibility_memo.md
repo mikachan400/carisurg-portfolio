@@ -10,7 +10,7 @@ The dataset contains more than 55,000 adult emergency department encounters and 
 
 The dataset provides information typically available during triage and therefore represents an appropriate foundation for artificial intelligence-assisted decision support. Data quality assessment revealed relatively low missingness among structured variables, reducing the need for extensive imputation and supporting model feasibility.
 
-![Figure 1 – Missingness Heatmap](figs/01_missingness.png)
+../figs/01_missingness.png
 
 ---
 
@@ -21,7 +21,7 @@ The most significant challenge identified is the imbalance across ESI categories
 
 > **Mitigation:** Potential approaches include class weighting, stratified sampling, targeted oversampling techniques, and separate evaluation of ESI 1 performance. Model performance should be monitored specifically for high-acuity patients because errors in these cases carry the greatest clinical risk.
 
-![Figure 2 – ESI Distribution](figs/02_esi_age.png)
+../figs/02_esi_age.png
 
 ### 2. Outcome Leakage
 Variables such as `disposition` and `previousdispo` become known only after triage and therefore should not be used as model inputs. Using such variables would introduce information that would not be available at the time of prediction and could falsely inflate model performance.
@@ -50,10 +50,11 @@ Analysis of ESI 1 encounters suggests that high-risk complaints such as respirat
 
 The rarity of ESI 1 encounters highlights the need for careful model evaluation to ensure critically ill patients are not overlooked.
 
+../figs/03_demographics.png
 ---
 
 ## Top 10 Feature Shortlist
-The following variables were selected using clinical reasoning and exploratory correlations with ESI level.
+This shortlist combines exploratory correlation analysis with clinical reasoning and should be treated as a hypothesis for testing during baseline model development in Week 6 rather than definitive evidence of feature importance.The following variables were selected using clinical reasoning and exploratory correlations with ESI level. 
 
 | Rank | Feature | Clinical Justification |
 | :---: | :--- | :--- |
@@ -86,8 +87,16 @@ Several visualisations were generated to assess data quality and modelling feasi
 * **Figure 2 – ESI Distribution:** Highlighted substantial class imbalance and the scarcity of ESI 1 patients.
 * **Figure 3 – Race and Ethnicity Distribution:** Provided demographic context and informed fairness considerations.
 * **Figure 4 – Top Chief Complaints:** Identified the most common presenting complaints.
+  
+../figs/04_chief_complaints.png
+
 * **Figure 5 – Vitals by ESI Level:** Demonstrated separation between acuity categories based on physiological measurements.
+
+../figs/05_vitals_by_esi.png
+  
 * **Figure 6 – Correlation Analysis:** Identified relationships between clinical features and triage severity.
+
+../figs/06_correlation.png
 
 ---
 
