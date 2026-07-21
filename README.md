@@ -59,9 +59,9 @@ cd carisurg-portfolio
 
 ## ✅ Status
 
-✅ Week 1-6 completed 
+✅ Week 1-7 completed 
 
-⏳ Weeks 7–12 in progress
+⏳ Weeks 8–12 in progress
 ---
 
 ## 📊 Week 5 Deliverables
@@ -86,6 +86,10 @@ Key findings:
 - The ESI target variable is suitable for modelling.
 - Major concerns include class imbalance, outcome leakage, and external validity.
 ---
+
+## Week 6 Video
+Loom Presentation:
+https://www.loom.com/share/774de81bac614069ad61c272cc2ba8b3
 
 ## 🔐 Data Notice
 No real patient data is stored in this repository. The dataset used is anonymised and provided for educational purposes, with simulated inconsistencies to reflect real-world clinical data challenges.
