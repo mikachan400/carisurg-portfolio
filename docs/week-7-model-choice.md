@@ -23,7 +23,7 @@ Logistic Regression remains the recommended model for Phase 3 development.
 - Lowest computational and deployment complexity.
 - Advanced models did not outperform the baseline.
 
-## Things I Do Not Yet Know
+## What I Do Not Know Currently
 
 - Whether additional hyperparameter tuning could improve advanced model performance.
 - Whether these results would generalise to external emergency department datasets.
