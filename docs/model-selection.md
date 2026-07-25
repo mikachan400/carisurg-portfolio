@@ -8,4 +8,4 @@
 | 4 | Gradient Boosting | 0.372 |
 | 5 | Random Forest | 0.300 |
 
-> 🏆 **Winner:** **Logistic Regression** (Macro F1 = 0.468)
+> **Winner:** **Logistic Regression** (Macro F1 = 0.468)
