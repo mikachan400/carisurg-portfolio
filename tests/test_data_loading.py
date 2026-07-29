@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from src.data import clean
 
 def test_data_loading_and_schema(tmp_path):
@@ -16,4 +17,3 @@ def test_data_loading_and_schema(tmp_path):
 
     assert 'target' in df_clean.columns
     assert df_clean.shape[0] == 3
-
