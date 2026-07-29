@@ -1,0 +1,23 @@
+data_path: data/triage_data.csv
+artifacts_path: artifacts/
+model:
+  name: logistic_regression
+  hyperparameters:
+    penalty: l2
+    C: 1.0
+    solver: liblinear
+    random_state: 42
+seed: 42
+train:
+  test_size: 0.2
+  random_state: 42
+versions:
+  python: 3.10
+  pandas: 1.5.3
+  numpy: 1.23.5
+  scikit-learn: 1.2.2
+  pyyaml: 6.0
+  joblib: 1.2.0
+  matplotlib: 3.7.1
+  seaborn: 0.12.2
+  pytest: 7.4.0
